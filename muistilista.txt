@@ -1,0 +1,8 @@
+
+runhaskell morshey-13
+$ ffmpeg -framerate 16 -i img%05d.png output.mp4
+
+$ ffmpeg -framerate 16 -i png-movie/img%05d.png output.mp4
+
+$ ffmpeg -i output.mp4 -i morse-04.wav out.mp4
+
